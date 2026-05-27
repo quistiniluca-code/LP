@@ -1,79 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sustainable Energy Platform</title>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400&display=swap" rel="stylesheet">
-    <title>ECONSYSTEM | Transizione Energetica Intelligente</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'brand-dark': '#043D00',
-                        'brand-light': '#8DC63F',
-                        'brand-white': '#FFFFFF',
-                    },
-                    fontFamily: {
-                        'arimo': ['Arimo', 'sans-serif'],
-                    },
-                    letterSpacing: {
-                        'tightest': '-.05em',
-                    },
-                    borderRadius: {
-                        '4xl': '2.5rem',
-                        'pill': '9999px',
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        body {
-            font-family: 'Arimo', sans-serif;
-            background-color: #FFFFFF;
-            color: #043D00;
-        }
-        .header {
-            background-color: #8DC63F;
-            padding: 20px;
-            text-align: center;
-        }
-        .methodology {
-            margin: 20px;
-        }
-        .diagnosis {
-            margin: 20px;
-            padding: 10px;
-            background-color: #e6ffe6;
-        }
-        .features {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            margin: 20px;
-        }
-        .feature {
-            border: 1px solid #8DC63F;
-            padding: 10px;
-            text-align: center;
-        }
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #FFFFFF; }
-        ::-webkit-scrollbar-thumb { background: #043D00; border-radius: 4px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECON® by APEX | Fotovoltaico con analisi, risparmio e piano di rientro</title>
+  <meta name="description" content="Analisi iniziale, impianto consigliato, stima di risparmio e piano di rientro per casa e piccole attività.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="header">
-        <h1>Welcome to the Sustainable Energy Platform</h1>
+<body class="antialiased selection:bg-brand-light selection:text-brand-white">
 <section class="econ-lp-v6" id="econ-top">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700;800&display=swap');
@@ -1075,8 +1011,6 @@
       opacity:.7;
       max-width:740px;
     }
-<body class="antialiased selection:bg-brand-light selection:text-brand-white">
-
     .econ-lp-v6 .footer-menu{
       display:flex;
       flex-wrap:wrap;
@@ -1804,8 +1738,6 @@
         </div>
       </div>
     </div>
-</body>
-</html>
   </section>
 
   <section class="section faq" id="domande">
@@ -2071,3 +2003,5 @@
     })();
   </script>
 </section>
+</body>
+</html>
